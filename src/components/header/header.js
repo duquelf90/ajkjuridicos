@@ -1,8 +1,8 @@
 import { NavLink } from './navLink'
-import { DrawerProvider } from '@/contexts/drawer/drawer.provider'
 import MobileDrawer from './mobile'
 import { SignIn } from '../button/buttons'
 import { Logo } from './logo'
+import { DrawerProvider } from 'contexts/drawer/drawer.provider'
 
 export default function Header({ className }) {
   return (
