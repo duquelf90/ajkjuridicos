@@ -13,8 +13,7 @@ export default function Header({ className }) {
             <Logo className="md:flex" />            
             <div className="hidden lg:flex items-end justify-end lg:w-10/12">
               <NavLink className="hidden" />
-              <SignIn />
-              
+              <SignIn />              
             </div>
             <MobileDrawer />
           </div>

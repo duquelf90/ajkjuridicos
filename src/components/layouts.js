@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Sticky enabled={isSticky} innerZ={1000} top={0}  >
-        <Header className={`${isSticky ? "sticky backdrop-blur border-[#4C4E50] bg-funded-600" : "unSticky"}`} />
+        <Header className={`${isSticky ? "sticky backdrop-blur border-b-3 border-[#001a33] bg-white" : "unSticky"}`} />
       </Sticky>
       <Waypoint
         onEnter={removeSticky}
